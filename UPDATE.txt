@@ -1,0 +1,13 @@
+# Update Instructions
+
+Based on:
+    http://peterdowns.com/posts/first-time-with-pypi.html
+    http://the-hitchhikers-guide-to-packaging.readthedocs.io/en/latest/quickstart.html
+
+1. export version=0.1
+2. git tag $version
+3. git push --tags origin master
+4. python setup.py sdist
+5. python setup.py sdist upload -r pypitest
+6. python setup.py sdist upload -r pypi
+
