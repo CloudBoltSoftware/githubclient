@@ -9,6 +9,8 @@ setup(
     url='https://github.com/CloudBoltSoftware/githubclient',
     download_url='https://github.com/CloudBoltSoftware/githubclient/tarball/0.1',
     keywords=['github', 'api', 'rest', 'client'],
+    license='MIT',
+    long_description=open('README.md').read(),
     classifiers=[],
     py_modules=['githubclient'],
 )
