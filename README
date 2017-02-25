@@ -1,3 +1,10 @@
+githubclient
+============
+
+A lightweight GitHub REST API client written in Python.
+
+LICENSE
+=======
 MIT License
 
 Copyright (c) 2016 CloudBolt Software
